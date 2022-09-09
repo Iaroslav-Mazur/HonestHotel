@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Iaro\\Desktop\\Honest Hotel\\contracts\\HonestHotel.sol": {
-      "lastModificationDate": 1662730793462,
-      "contentHash": "b48deb951c4d75ad12457f65bdd2f2fd",
+      "lastModificationDate": 1662733448525,
+      "contentHash": "0d6256c7e553f31ed221ae909b09d9fa",
       "sourceName": "contracts/HonestHotel.sol",
       "solcConfig": {
         "version": "0.8.9",

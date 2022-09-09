@@ -81,11 +81,8 @@ contract HonestHotel is Owner{
             if (addressToRooms[roomOccupant].length == 0)
                 removeClientByAddress(roomOccupant);
 
-            if (roomOccupant != address(0))
-            {
-                roomToAddress[roomNr] = address(0);
-                emit RoomFreed(roomNr, roomOccupant, msg.sender);
-            }
+            roomToAddress[roomNr] = address(0);
+            emit RoomFreed(roomNr, roomOccupant, msg.sender);
         }
     }
 
